@@ -1,4 +1,5 @@
 c:\users\usuario\documents\visual studio 2015\Projects\SistemaFIM\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+<<<<<<< HEAD
 c:\users\usuario\documents\visual studio 2015\Projects\SistemaFIM\CapaPresentacion\bin\Debug\CapaPresentacion.exe
 c:\users\usuario\documents\visual studio 2015\Projects\SistemaFIM\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
 c:\users\usuario\documents\visual studio 2015\Projects\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
@@ -6,3 +7,13 @@ c:\users\usuario\documents\visual studio 2015\Projects\SistemaFIM\CapaPresentaci
 c:\users\usuario\documents\visual studio 2015\Projects\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
 c:\users\usuario\documents\visual studio 2015\Projects\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 c:\users\usuario\documents\visual studio 2015\Projects\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+=======
+C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+>>>>>>> 6db74d1bcbc6d3845d56594d8032b06ffcd359b9
