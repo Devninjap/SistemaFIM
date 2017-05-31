@@ -16,4 +16,9 @@ C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.
 C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
 C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+<<<<<<< HEAD
 >>>>>>> 6db74d1bcbc6d3845d56594d8032b06ffcd359b9
+=======
+C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Form1.resources
+C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Egresado.resources
+>>>>>>> 2c0fd85f50dd3b618b40fb40eabb702ea6521932
