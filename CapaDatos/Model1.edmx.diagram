@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="1c3cda73ada643c19422c5b120a35819" Name="Diagram1">
+      <Diagram DiagramId="1c3cda73ada643c19422c5b120a35819" Name="Diagram1" ZoomLevel="97">
         <EntityTypeShape EntityType="SistemaFIMDBModel.area" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
         <EntityTypeShape EntityType="SistemaFIMDBModel.documento" Width="1.5" PointX="7.5" PointY="2.5" IsExpanded="true" />
         <EntityTypeShape EntityType="SistemaFIMDBModel.egresado" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
