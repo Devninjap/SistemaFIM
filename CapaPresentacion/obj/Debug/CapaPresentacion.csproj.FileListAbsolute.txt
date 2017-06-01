@@ -20,3 +20,5 @@ C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.
 C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Form1.resources
 C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Egresado.resources
 >>>>>>> 2c0fd85f50dd3b618b40fb40eabb702ea6521932
+C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Login1.resources
+C:\Users\USUARIO\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Usuario.resources
