@@ -10,24 +10,24 @@ using System.Windows.Forms;
 
 namespace CapaPresentacion
 {
-    public partial class Form1 : Form
+    public partial class Frm_Login2 : Form
     {
-        public Form1()
+        public Frm_Login2()
         {
             InitializeComponent();
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void Frm_Login2_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
