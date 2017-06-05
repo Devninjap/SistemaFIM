@@ -36,5 +36,10 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void Frm_Usuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
