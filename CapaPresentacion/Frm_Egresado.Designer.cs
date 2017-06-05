@@ -473,6 +473,7 @@
             this.Name = "Frm_Egresado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Egresado";
+            this.Load += new System.EventHandler(this.Frm_Egresado_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
