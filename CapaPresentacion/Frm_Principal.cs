@@ -16,10 +16,5 @@ namespace CapaPresentacion
         {
             InitializeComponent();
         }
-
-        private void asToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

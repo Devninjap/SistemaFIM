@@ -16,10 +16,5 @@ namespace CapaPresentacion
         {
             InitializeComponent();
         }
-
-        private void Frm_Documentos_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -49,12 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frm_Documentos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,9 +93,6 @@
     <Compile Include="Reporte_Documentos.Designer.cs">
       <DependentUpon>Reporte_Documentos.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Documentos.resx">
       <DependentUpon>Frm_Documentos.cs</DependentUpon>
     </EmbeddedResource>

@@ -56,7 +56,6 @@
             this.pictureBox2.Size = new System.Drawing.Size(698, 87);
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // panel1
             // 
@@ -111,7 +110,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Reporte_Documentos";
             this.Text = "Reporte_Documentos";
-            this.Load += new System.EventHandler(this.Reporte_Documentos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);

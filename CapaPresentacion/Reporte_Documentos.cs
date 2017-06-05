@@ -16,16 +16,5 @@ namespace CapaPresentacion
         {
             InitializeComponent();
         }
-
-        private void Reporte_Documentos_Load(object sender, EventArgs e)
-        {
-
-            this.reportViewer1.RefreshReport();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
