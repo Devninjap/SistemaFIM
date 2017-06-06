@@ -14,6 +14,9 @@ namespace CapaPresentacion
 {
     public partial class Frm_Responsable : Form
     {
+        public bool nuevo = true;
+        int idConsulta;
+
         responsableCN objResponsable = new responsableCN();
         areaCN objArea = new areaCN();
 
@@ -29,20 +32,23 @@ namespace CapaPresentacion
             cargarComboArea();
         }
 
-        public void registrarEgresado()
+        public void registrarResponsable()
         {
             //objEgresado.registrarEgresado(datosEgresado());
             objResponsable.registrarResponsable(datosResponsable());
         }
 
-        public void modificarEgresado()
+        public void modificarResponsable()
         {
-
+            //asignado idResponsable al objeto egresado
+            responsable respConsult = datosResponsable();
+            respConsult.idResponsable = idConsulta;
+            objResponsable.modificarResponsable(respConsult);
         }
 
-        public void consultarEgreado()
+        public responsable consultarResponsable(int idResp)
         {
-
+            return objResponsable.consultarResponsable(idResp);
         }
         //METODO DE CAPTURA DE VALORES
         public responsable datosResponsable()
@@ -90,7 +96,40 @@ namespace CapaPresentacion
         //Eventos click
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            registrarEgresado();
+            if (nuevo)
+            {
+                registrarResponsable();
+            }
+            else
+            {
+                modificarResponsable();
+            }
+            
+        }
+
+        private void dgvListadoResp_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            idConsulta = int.Parse(dgvListadoResp.CurrentRow.Cells[0].Value.ToString());
+            responsable responsable = consultarResponsable(idConsulta);
+            //rellenando campos
+            txtNom.Text = responsable.nomResponsable;
+            txtApePat.Text = responsable.apePatResponsable;
+            txtApeMat.Text = responsable.apeMatResponsable;
+            txtCargo.Text = responsable.cargoResponsable;
+            txtGrado.Text = responsable.gradoAcaResponsable;
+            //asignando valor al comboBox
+            for (int i = 1; i < cmbArea.Items.Count; i++)
+            {
+                cmbArea.SelectedIndex = i;
+                if (cmbArea.SelectedValue.ToString() == responsable.idArea.ToString())
+                {
+                    cmbArea.SelectedIndex = i;
+                    break;
+                }
+            }
+
+            tabControl1.SelectTab(tabPage2);
+            nuevo = false;
         }
     }
 }

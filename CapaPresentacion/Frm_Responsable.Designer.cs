@@ -163,6 +163,7 @@
             this.dgvListadoResp.Name = "dgvListadoResp";
             this.dgvListadoResp.Size = new System.Drawing.Size(854, 348);
             this.dgvListadoResp.TabIndex = 0;
+            this.dgvListadoResp.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListadoResp_CellDoubleClick);
             // 
             // tabPage2
             // 

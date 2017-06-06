@@ -37,5 +37,54 @@ namespace CapaDatos
                 throw;
             }
         }
+
+        //CONSULTAR RESPONSABLE
+        public responsable consultarResponsable(int idResp)
+        {
+            try
+            {
+                var query = from tblResponsable in ctx.responsable
+                            where tblResponsable.idResponsable == idResp
+                            select tblResponsable;
+
+                return query.FirstOrDefault();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+        }
+        //MODIFICAR RESPONSABLE
+        public void modificarResponsable(responsable resp)
+        {
+            try
+            {
+                //LINQ
+                /*
+                var query1 = (from a in ctx.responsable
+                              where a.idEgresado == resp.idEgresado
+                              select a).Single();
+                */
+                //LAMBDA
+                var query2 = ctx.responsable.Where(q => q.idResponsable == resp.idResponsable).FirstOrDefault();
+
+                //llamada a cada atributo de la tabla
+                query2.nomResponsable = resp.nomResponsable;
+                query2.apePatResponsable = resp.apePatResponsable;
+                query2.apeMatResponsable = resp.apeMatResponsable;
+                query2.cargoResponsable = resp.cargoResponsable;
+                query2.gradoAcaResponsable = resp.gradoAcaResponsable;
+                query2.idArea = resp.idArea;
+                //guardando cambios
+                ctx.SaveChanges();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
     }
 }

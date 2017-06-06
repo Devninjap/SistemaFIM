@@ -19,5 +19,13 @@ namespace CapaNegocio
         {
             obj.registrarResponsable(resp);
         }
+        public responsable consultarResponsable(int idResp)
+        {
+            return obj.consultarResponsable(idResp);
+        }
+        public void modificarResponsable(responsable resp)
+        {
+            obj.modificarResponsable(resp);
+        }
     }
 }
