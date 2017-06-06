@@ -7,4 +7,3 @@ C:\Users\Yampier\Desktop\SistemaFIM\CapaEntidades\bin\Debug\CapaEntidades.pdb
 C:\Users\Yampier\Desktop\SistemaFIM\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
 C:\Users\Yampier\Desktop\SistemaFIM\CapaEntidades\obj\Debug\CapaEntidades.dll
 C:\Users\Yampier\Desktop\SistemaFIM\CapaEntidades\obj\Debug\CapaEntidades.pdb
-C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaFIM\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache

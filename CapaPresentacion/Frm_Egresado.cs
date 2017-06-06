@@ -14,14 +14,13 @@ namespace CapaPresentacion
 {
     public partial class Frm_Egresado : Form
     {
-<<<<<<< HEAD
         egresadoCN objEgresado = new egresadoCN();
         public byte[] foto = null;
 
-=======
+
         egresadoCN obj = new egresadoCN();
         facultadCN objFacultad = new facultadCN();
->>>>>>> d80efeefd614828385ab81c9fe03a0483cec51f4
+
         public Frm_Egresado()
         {
             InitializeComponent();
@@ -29,34 +28,32 @@ namespace CapaPresentacion
 
         private void Frm_Egresado_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-           listarEgresado();
-=======
-            ListarEgresado();
->>>>>>> d80efeefd614828385ab81c9fe03a0483cec51f4
+            listarEgresado();
+
         }
 
         //LLAMADA A LOS METODOS
         private void listarEgresado()
         {
             dataGridView1.DataSource = objEgresado.getEgresado();
+            cargarComboFacultades();
         }
         
-        public void RegistrarEgresado()
+        public void registrarEgresado()
         {
             objEgresado.registrarEgresado(datosEgresado());
         }
 
-        public void ModificarEgresado()
+        public void modificarEgresado()
         {
 
         }
 
-        public void ConsultarEgreado()
+        public void consultarEgreado()
         {
 
         }
-<<<<<<< HEAD
+
         //METODO DE CAPTURA DE VALORES
         public egresado datosEgresado()
         {
@@ -93,7 +90,7 @@ namespace CapaPresentacion
 
                 throw;
             }
-=======
+        }
         //Metodos auxiliares
         private void cargarComboFacultades()
         {
@@ -117,7 +114,7 @@ namespace CapaPresentacion
         {
             public string Nombre { get; set; }
             public string Valor { get; set; }
->>>>>>> d80efeefd614828385ab81c9fe03a0483cec51f4
+
         }
     }
 }
