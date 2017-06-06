@@ -44,5 +44,55 @@ namespace CapaDatos
                 throw;
             }
         }
+
+        public egresado consultarEgresado(int idEgre)
+        {
+            try
+            {
+                var query = from tblEgresado in ctx.egresado
+                            where tblEgresado.idEgresado == idEgre
+                            select tblEgresado;
+
+                return query.FirstOrDefault();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
+        }
+        public void modificarEgresado(egresado egre)
+        {
+            try
+            {
+                //LINQ
+                var query1 = (from a in ctx.egresado
+                            where a.idEgresado == egre.idEgresado
+                            select a).Single();
+                //LAMBDA
+                var query2 = ctx.egresado.Where(q => q.idEgresado == egre.idEgresado).FirstOrDefault();
+
+                //llamada a cada atributo de la tabla
+                query1.nomEgresado = egre.nomEgresado;
+                query1.apePatEgresado = egre.apePatEgresado;
+                query1.apeMatEgresado = egre.apeMatEgresado;
+                query1.dniEgresado = egre.dniEgresado;
+                query1.codMatEgresado = egre.codMatEgresado;
+                query1.condicionEgresado = egre.condicionEgresado;
+                query1.domicilioEgresado = egre.domicilioEgresado;
+                query1.celEgresado = egre.celEgresado;
+                query1.emailEgresado = egre.emailEgresado;
+                query1.fotografiaEgresado = egre.fotografiaEgresado;
+                query1.idFacultad = egre.idFacultad;
+                //guardando cambios
+                ctx.SaveChanges();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
     }
 }
