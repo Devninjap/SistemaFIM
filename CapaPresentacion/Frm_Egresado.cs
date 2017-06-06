@@ -30,7 +30,6 @@ namespace CapaPresentacion
         private void Frm_Egresado_Load(object sender, EventArgs e)
         {
             listarEgresado();
-
         }
 
         //LLAMADA A LOS METODOS
@@ -166,6 +165,7 @@ namespace CapaPresentacion
 
             tabControl1.SelectTab(tabPage2);
             nuevo = false;
+            foto = null;
         }
     }
 }

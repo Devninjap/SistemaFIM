@@ -7,13 +7,14 @@ using CapaEntidades;
 
 namespace CapaDatos
 {
-    public class facultadCD
+    public class areaCD
     {
         SistemaFIMDBEntities ctx = new SistemaFIMDBEntities();
-        //LISTAR FACULTADES
-        public List<facultad> getFacultad()
+        //LISTAR AREAS
+        public List<area> getArea()
         {
-            return ctx.facultad.ToList();
+            return ctx.area.ToList();
         }
+
     }
 }

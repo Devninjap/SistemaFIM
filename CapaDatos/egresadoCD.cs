@@ -67,7 +67,7 @@ namespace CapaDatos
             try
             {
                 //LINQ
-                var query1 = (from a in ctx.egresado
+                var query1= (from a in ctx.egresado
                             where a.idEgresado == egre.idEgresado
                             select a).Single();
                 //LAMBDA
@@ -83,7 +83,11 @@ namespace CapaDatos
                 query2.domicilioEgresado = egre.domicilioEgresado;
                 query2.celEgresado = egre.celEgresado;
                 query2.emailEgresado = egre.emailEgresado;
+<<<<<<< HEAD
                 query2.fotografiaEgresado = egre.fotografiaEgresado;
+=======
+                if(egre.fotografiaEgresado != null) query2.fotografiaEgresado = egre.fotografiaEgresado;
+>>>>>>> 451552d9dabb7ce9ecce462522147b5f2fa4f151
                 query2.idFacultad = egre.idFacultad;
                 //guardando cambios
                 ctx.SaveChanges();
