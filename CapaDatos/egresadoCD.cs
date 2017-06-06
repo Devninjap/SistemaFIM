@@ -14,12 +14,16 @@ namespace CapaDatos
         //LISTAR EGRESADOS
         public object getEgresado()
         {
-            var query = from item in ctx.egresado
+            var query = from tblEgresado in ctx.egresado
+                        join tblFacultad in ctx.facultad 
+                        on tblEgresado.idFacultad equals tblFacultad.idFacultad //aqui un RICO JOIN
                         select new
                         {
-                            item.nomEgresado,
-                            item.apePatEgresado,
-                            item.apeMatEgresado
+                            tblEgresado.idEgresado,
+                            tblEgresado.nomEgresado,
+                            tblEgresado.apePatEgresado,
+                            tblEgresado.apeMatEgresado,
+                            tblFacultad.nomFacultad
                         };
             
             //List<egresado> egreList = query.ToList<egresado>();
