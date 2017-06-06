@@ -10,3 +10,15 @@ C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaFIM\CapaDatos\bin\
 C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaFIM\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaFIM\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaFIM\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\bin\Debug\EntityFramework.dll
+C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\bin\Debug\EntityFramework.xml
+C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\obj\Debug\CapaDatos.pdb

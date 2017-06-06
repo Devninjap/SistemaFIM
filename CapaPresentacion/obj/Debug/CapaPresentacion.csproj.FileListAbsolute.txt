@@ -60,7 +60,6 @@ C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\ru\Microsoft.SqlS
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
-C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Form1.resources
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Documentos.resources
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Egresado.resources
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Expedientes.resources
@@ -108,3 +107,13 @@ C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaFIM\CapaPresentaci
 C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.xml
 C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaEntidades.dll
+C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.dll
+C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaEntidades.pdb
+C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.xml
+C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaDatos.pdb
