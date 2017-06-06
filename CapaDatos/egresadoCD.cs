@@ -12,7 +12,7 @@ namespace CapaDatos
     {
         SistemaFIMDBEntities ctx = new SistemaFIMDBEntities();
         //LISTAR EGRESADOS
-        public object GetEgresado()
+        public object getEgresado()
         {
             var query = from item in ctx.egresado
                         select new
@@ -27,7 +27,7 @@ namespace CapaDatos
             //return ctx.egresado.ToList();
         }
         //INSERTAR EGRESADO
-        public void RegistrarEgresado(egresado eg)
+        public void registrarEgresado(egresado eg)
         {
             try
             {
@@ -39,8 +39,6 @@ namespace CapaDatos
 
                 throw;
             }
-            egresadoCD obj = new egresadoCD();
-            obj.RegistrarEgresado(eg);
         }
     }
 }

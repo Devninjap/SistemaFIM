@@ -14,7 +14,9 @@ namespace CapaPresentacion
 {
     public partial class Frm_Egresado : Form
     {
-        egresadoCN obj = new egresadoCN();
+        egresadoCN objEgresado = new egresadoCN();
+        public byte[] foto = null;
+
         public Frm_Egresado()
         {
             InitializeComponent();
@@ -22,18 +24,18 @@ namespace CapaPresentacion
 
         private void Frm_Egresado_Load(object sender, EventArgs e)
         {
-           ListarEgresado();
+           listarEgresado();
         }
 
         //LLAMADA A LOS METODOS
-        private void ListarEgresado()
+        private void listarEgresado()
         {
-            dataGridView1.DataSource = obj.GetEgresado();
+            dataGridView1.DataSource = objEgresado.getEgresado();
         }
         
         public void RegistrarEgresado()
         {
-
+            objEgresado.registrarEgresado(datosEgresado());
         }
 
         public void ModificarEgresado()
@@ -44,6 +46,43 @@ namespace CapaPresentacion
         public void ConsultarEgreado()
         {
 
+        }
+        //METODO DE CAPTURA DE VALORES
+        public egresado datosEgresado()
+        {
+            egresado egre = new egresado
+            {
+                nomEgresado = txtNom.Text,
+                apePatEgresado = txtApePat.Text,
+                apeMatEgresado = txtApeMat.Text,
+                dniEgresado = txtDni.Text,
+                codMatEgresado = txtCodMat.Text,
+                condicionEgresado = "I",
+                domicilioEgresado = txtDomi.Text,
+                celEgresado = txtCel.Text,
+                emailEgresado = txtEmail.Text,
+                fotografiaEgresado = foto,//validar
+                idFacultad = cmbFac.SelectedValue.ToString()
+            };
+
+            return egre;
+        }
+        public void cargarFoto()
+        {
+            try
+            {
+                if (fileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string ruta = fileDialog.FileName;
+                    picBoxFoto.Image = Image.FromFile(ruta);
+                    foto = System.IO.File.ReadAllBytes(ruta);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }

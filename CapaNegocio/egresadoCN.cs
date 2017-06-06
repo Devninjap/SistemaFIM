@@ -12,9 +12,13 @@ namespace CapaNegocio
     {
         //INSTANCIAS
         egresadoCD obj = new egresadoCD();
-        public object GetEgresado()
+        public object getEgresado()
         {
-            return obj.GetEgresado();
+            return obj.getEgresado();
+        }
+        public void registrarEgresado(egresado eg)
+        {
+            obj.registrarEgresado(eg);
         }
     }
 }
