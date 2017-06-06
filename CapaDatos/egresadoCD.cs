@@ -74,17 +74,17 @@ namespace CapaDatos
                 var query2 = ctx.egresado.Where(q => q.idEgresado == egre.idEgresado).FirstOrDefault();
 
                 //llamada a cada atributo de la tabla
-                query1.nomEgresado = egre.nomEgresado;
-                query1.apePatEgresado = egre.apePatEgresado;
-                query1.apeMatEgresado = egre.apeMatEgresado;
-                query1.dniEgresado = egre.dniEgresado;
-                query1.codMatEgresado = egre.codMatEgresado;
-                query1.condicionEgresado = egre.condicionEgresado;
-                query1.domicilioEgresado = egre.domicilioEgresado;
-                query1.celEgresado = egre.celEgresado;
-                query1.emailEgresado = egre.emailEgresado;
-                query1.fotografiaEgresado = egre.fotografiaEgresado;
-                query1.idFacultad = egre.idFacultad;
+                query2.nomEgresado = egre.nomEgresado;
+                query2.apePatEgresado = egre.apePatEgresado;
+                query2.apeMatEgresado = egre.apeMatEgresado;
+                query2.dniEgresado = egre.dniEgresado;
+                query2.codMatEgresado = egre.codMatEgresado;
+                query2.condicionEgresado = egre.condicionEgresado;
+                query2.domicilioEgresado = egre.domicilioEgresado;
+                query2.celEgresado = egre.celEgresado;
+                query2.emailEgresado = egre.emailEgresado;
+                query2.fotografiaEgresado = egre.fotografiaEgresado;
+                query2.idFacultad = egre.idFacultad;
                 //guardando cambios
                 ctx.SaveChanges();
             }
