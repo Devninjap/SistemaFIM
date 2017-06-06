@@ -87,8 +87,7 @@ namespace CapaPresentacion
             }
             catch (Exception)
             {
-
-                throw;
+                MessageBox.Show("Solo se permiten imagenes", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         //Metodos auxiliares
@@ -114,7 +113,16 @@ namespace CapaPresentacion
         {
             public string Nombre { get; set; }
             public string Valor { get; set; }
+        }
+        //EVENTOS DE BOTONES
+        private void btnCargar_Click(object sender, EventArgs e)
+        {
+            cargarFoto();
+        }
 
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            registrarEgresado();
         }
     }
 }
