@@ -117,3 +117,4 @@ C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaNegocio.pdb
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.xml
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Responsable.resources
