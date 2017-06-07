@@ -22,3 +22,15 @@ C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\bin\Debug\EntityFramework.SqlServe
 C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
 C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\Yampier\Desktop\SistemaFIM\CapaDatos\obj\Debug\CapaDatos.pdb
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaDatos\bin\Debug\CapaDatos.dll.config
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaDatos\bin\Debug\CapaDatos.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaDatos\bin\Debug\CapaDatos.pdb
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaDatos\bin\Debug\CapaEntidades.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaDatos\bin\Debug\EntityFramework.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaDatos\bin\Debug\CapaEntidades.pdb
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaDatos\bin\Debug\EntityFramework.xml
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaDatos\obj\Debug\CapaDatos.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaDatos\obj\Debug\CapaDatos.pdb

@@ -118,3 +118,42 @@ C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.x
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaDatos.pdb
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Responsable.resources
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\CapaEntidades.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\CapaNegocio.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\CapaDatos.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\CapaEntidades.pdb
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.xml
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.xml
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\CapaDatos.pdb
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Documentos.resources
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Egresado.resources
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Solicitudes.resources
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Login2.resources
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Principal.resources
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Responsable.resources
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Usuario.resources
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Documentos.resources
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
