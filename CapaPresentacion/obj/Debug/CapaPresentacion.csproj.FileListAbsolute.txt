@@ -118,3 +118,4 @@ C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.x
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaDatos.pdb
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Responsable.resources
+C:\Users\Usuario\documents\visual studio 2015\Projects\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Responsable.resources

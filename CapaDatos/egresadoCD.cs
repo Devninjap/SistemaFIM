@@ -19,13 +19,14 @@ namespace CapaDatos
                         on tblEgresado.idFacultad equals tblFacultad.idFacultad //aqui un RICO JOIN
                         select new
                         {
-                            tblEgresado.idEgresado,
-                            tblEgresado.nomEgresado,
-                            tblEgresado.apePatEgresado,
-                            tblEgresado.apeMatEgresado,
-                            tblFacultad.nomFacultad
+                            ID = tblEgresado.idEgresado,
+                            NombreCompleto = tblEgresado.apePatEgresado.ToUpper()+" "+tblEgresado.apeMatEgresado.ToUpper()+", "+tblEgresado.nomEgresado.ToUpper(),
+                            //Nombre = tblEgresado.nomEgresado,
+                            //Paterno = tblEgresado.apePatEgresado,
+                            //Materno = tblEgresado.apeMatEgresado,
+                            Facultad = tblFacultad.nomFacultad
                         };
-            
+
             //List<egresado> egreList = query.ToList<egresado>();
             return query.ToList();
             //return ctx.egresado.ToList();
@@ -83,11 +84,8 @@ namespace CapaDatos
                 query2.domicilioEgresado = egre.domicilioEgresado;
                 query2.celEgresado = egre.celEgresado;
                 query2.emailEgresado = egre.emailEgresado;
-<<<<<<< HEAD
                 query2.fotografiaEgresado = egre.fotografiaEgresado;
-=======
                 if(egre.fotografiaEgresado != null) query2.fotografiaEgresado = egre.fotografiaEgresado;
->>>>>>> 451552d9dabb7ce9ecce462522147b5f2fa4f151
                 query2.idFacultad = egre.idFacultad;
                 //guardando cambios
                 ctx.SaveChanges();
