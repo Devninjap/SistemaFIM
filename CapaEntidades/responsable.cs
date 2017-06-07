@@ -12,12 +12,12 @@ namespace CapaEntidades
     using System;
     using System.Collections.Generic;
     
-    public partial class responsable
+    public partial class Responsable
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public responsable()
+        public Responsable()
         {
-            this.documento = new HashSet<documento>();
+            this.Documento = new HashSet<Documento>();
         }
     
         public int idResponsable { get; set; }
@@ -28,8 +28,8 @@ namespace CapaEntidades
         public string gradoAcaResponsable { get; set; }
         public int idArea { get; set; }
     
-        public virtual area area { get; set; }
+        public virtual Area Area { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<documento> documento { get; set; }
+        public virtual ICollection<Documento> Documento { get; set; }
     }
 }

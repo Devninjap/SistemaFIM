@@ -12,12 +12,12 @@ namespace CapaEntidades
     using System;
     using System.Collections.Generic;
     
-    public partial class egresado
+    public partial class Egresado
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public egresado()
+        public Egresado()
         {
-            this.solicitud = new HashSet<solicitud>();
+            this.Solicitud = new HashSet<Solicitud>();
         }
     
         public int idEgresado { get; set; }
@@ -31,10 +31,10 @@ namespace CapaEntidades
         public string celEgresado { get; set; }
         public string emailEgresado { get; set; }
         public byte[] fotografiaEgresado { get; set; }
-        public string idFacultad { get; set; }
+        public int idFacultad { get; set; }
     
-        public virtual facultad facultad { get; set; }
+        public virtual Facultad Facultad { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<solicitud> solicitud { get; set; }
+        public virtual ICollection<Solicitud> Solicitud { get; set; }
     }
 }

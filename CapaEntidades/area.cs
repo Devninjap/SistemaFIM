@@ -12,18 +12,18 @@ namespace CapaEntidades
     using System;
     using System.Collections.Generic;
     
-    public partial class area
+    public partial class Area
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public area()
+        public Area()
         {
-            this.responsable = new HashSet<responsable>();
+            this.Responsable = new HashSet<Responsable>();
         }
     
         public int idArea { get; set; }
-        public string nomArea { get; set; }
+        public string descArea { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<responsable> responsable { get; set; }
+        public virtual ICollection<Responsable> Responsable { get; set; }
     }
 }

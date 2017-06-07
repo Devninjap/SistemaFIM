@@ -12,9 +12,10 @@ namespace CapaEntidades
     using System;
     using System.Collections.Generic;
     
-    public partial class requisito
+    public partial class Requisito
     {
-        public string idRequisito { get; set; }
+        public int idRequisito { get; set; }
+        public string carRequisito { get; set; }
         public string descRequisito { get; set; }
     }
 }

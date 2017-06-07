@@ -12,18 +12,18 @@ namespace CapaEntidades
     using System;
     using System.Collections.Generic;
     
-    public partial class procedimiento
+    public partial class Procedimiento
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public procedimiento()
+        public Procedimiento()
         {
-            this.requisito_procedimiento = new HashSet<requisito_procedimiento>();
+            this.Requisito_procedimiento = new HashSet<Requisito_procedimiento>();
         }
     
         public int idProcedimiento { get; set; }
         public string descProcedimiento { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<requisito_procedimiento> requisito_procedimiento { get; set; }
+        public virtual ICollection<Requisito_procedimiento> Requisito_procedimiento { get; set; }
     }
 }

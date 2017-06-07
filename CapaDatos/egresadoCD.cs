@@ -14,8 +14,8 @@ namespace CapaDatos
         //LISTAR EGRESADOS
         public object getEgresado()
         {
-            var query = from tblEgresado in ctx.egresado
-                        join tblFacultad in ctx.facultad 
+            var query = from tblEgresado in ctx.Egresado
+                        join tblFacultad in ctx.Facultad 
                         on tblEgresado.idFacultad equals tblFacultad.idFacultad //aqui un RICO JOIN
                         select new
                         {
@@ -32,11 +32,11 @@ namespace CapaDatos
             //return ctx.egresado.ToList();
         }
         //INSERTAR EGRESADO
-        public void registrarEgresado(egresado eg)
+        public void registrarEgresado(Egresado eg)
         {
             try
             {
-                ctx.egresado.Add(eg);
+                ctx.Egresado.Add(eg);
                 ctx.SaveChanges();
             }
             catch (Exception)
@@ -46,11 +46,11 @@ namespace CapaDatos
             }
         }
 
-        public egresado consultarEgresado(int idEgre)
+        public Egresado consultarEgresado(int idEgre)
         {
             try
             {
-                var query = from tblEgresado in ctx.egresado
+                var query = from tblEgresado in ctx.Egresado
                             where tblEgresado.idEgresado == idEgre
                             select tblEgresado;
 
@@ -63,16 +63,16 @@ namespace CapaDatos
             }
             
         }
-        public void modificarEgresado(egresado egre)
+        public void modificarEgresado(Egresado egre)
         {
             try
             {
                 //LINQ
-                var query1= (from a in ctx.egresado
+                var query1= (from a in ctx.Egresado
                             where a.idEgresado == egre.idEgresado
                             select a).Single();
                 //LAMBDA
-                var query2 = ctx.egresado.Where(q => q.idEgresado == egre.idEgresado).FirstOrDefault();
+                var query2 = ctx.Egresado.Where(q => q.idEgresado == egre.idEgresado).FirstOrDefault();
 
                 //llamada a cada atributo de la tabla
                 query2.nomEgresado = egre.nomEgresado;

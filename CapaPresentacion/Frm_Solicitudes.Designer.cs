@@ -123,7 +123,7 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(17, 16);
+            this.dataGridView1.Location = new System.Drawing.Point(23, 20);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(569, 226);
             this.dataGridView1.TabIndex = 0;
@@ -404,7 +404,7 @@
             this.panel2.Size = new System.Drawing.Size(492, 46);
             this.panel2.TabIndex = 9;
             // 
-            // Frm_Expedientes
+            // Frm_Solicitudes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -416,7 +416,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Frm_Expedientes";
+            this.Name = "Frm_Solicitudes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Expedientes";
             this.tabControl1.ResumeLayout(false);

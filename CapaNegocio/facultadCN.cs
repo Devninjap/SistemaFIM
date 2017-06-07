@@ -12,7 +12,7 @@ namespace CapaNegocio
     {
         //INSTANCIAS
         facultadCD obj = new facultadCD();
-        public List<facultad> getFacultad()
+        public List<Facultad> getFacultad()
         {
             return obj.getFacultad();
         }

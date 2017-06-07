@@ -15,15 +15,15 @@ namespace CapaNegocio
         {
             return obj.getResponsable();
         }
-        public void registrarResponsable(responsable resp)
+        public void registrarResponsable(Responsable resp)
         {
             obj.registrarResponsable(resp);
         }
-        public responsable consultarResponsable(int idResp)
+        public Responsable consultarResponsable(int idResp)
         {
             return obj.consultarResponsable(idResp);
         }
-        public void modificarResponsable(responsable resp)
+        public void modificarResponsable(Responsable resp)
         {
             obj.modificarResponsable(resp);
         }

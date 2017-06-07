@@ -1,23 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="SistemaFIMDBModelStoreContainer" CdmEntityContainer="SistemaFIMDBEntities">
-    <EntitySetMapping Name="area">
-      <EntityTypeMapping TypeName="SistemaFIMDBModel.area">
-        <MappingFragment StoreEntitySet="area">
+  <EntityContainerMapping StorageEntityContainer="SistemaFIMDBModelStoreContainer" CdmEntityContainer="SistemaFIMDBEntities1">
+    <EntitySetMapping Name="Area">
+      <EntityTypeMapping TypeName="SistemaFIMDBModel.Area">
+        <MappingFragment StoreEntitySet="Area">
           <ScalarProperty Name="idArea" ColumnName="idArea" />
-          <ScalarProperty Name="nomArea" ColumnName="nomArea" />
+          <ScalarProperty Name="descArea" ColumnName="descArea" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="documento">
-      <EntityTypeMapping TypeName="SistemaFIMDBModel.documento">
-        <MappingFragment StoreEntitySet="documento">
+    <EntitySetMapping Name="Documento">
+      <EntityTypeMapping TypeName="SistemaFIMDBModel.Documento">
+        <MappingFragment StoreEntitySet="Documento">
           <ScalarProperty Name="idDocumento" ColumnName="idDocumento" />
           <ScalarProperty Name="descDocumento" ColumnName="descDocumento" />
           <ScalarProperty Name="tipoDocumento" ColumnName="tipoDocumento" />
           <ScalarProperty Name="fechaEmiDocumento" ColumnName="fechaEmiDocumento" />
           <ScalarProperty Name="estadoDocumento" ColumnName="estadoDocumento" />
-          <ScalarProperty Name="archivoDocumento" ColumnName="archivoDocumento" />
           <ScalarProperty Name="idResponsable" ColumnName="idResponsable" />
           <ScalarProperty Name="nomResponsable" ColumnName="nomResponsable" />
           <ScalarProperty Name="apePatResponsable" ColumnName="apePatResponsable" />
@@ -33,6 +32,7 @@
           <ScalarProperty Name="dniEgresado" ColumnName="dniEgresado" />
           <ScalarProperty Name="codMatEgresado" ColumnName="codMatEgresado" />
           <ScalarProperty Name="fotografiaEgresado" ColumnName="fotografiaEgresado" />
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
           <ScalarProperty Name="nomUsuario" ColumnName="nomUsuario" />
           <ScalarProperty Name="contraUsuario" ColumnName="contraUsuario" />
           <ScalarProperty Name="nomPerUsuario" ColumnName="nomPerUsuario" />
@@ -42,9 +42,9 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="egresado">
-      <EntityTypeMapping TypeName="SistemaFIMDBModel.egresado">
-        <MappingFragment StoreEntitySet="egresado">
+    <EntitySetMapping Name="Egresado">
+      <EntityTypeMapping TypeName="SistemaFIMDBModel.Egresado">
+        <MappingFragment StoreEntitySet="Egresado">
           <ScalarProperty Name="idEgresado" ColumnName="idEgresado" />
           <ScalarProperty Name="nomEgresado" ColumnName="nomEgresado" />
           <ScalarProperty Name="apePatEgresado" ColumnName="apePatEgresado" />
@@ -60,50 +60,43 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="facultad">
-      <EntityTypeMapping TypeName="SistemaFIMDBModel.facultad">
-        <MappingFragment StoreEntitySet="facultad">
+    <EntitySetMapping Name="Facultad">
+      <EntityTypeMapping TypeName="SistemaFIMDBModel.Facultad">
+        <MappingFragment StoreEntitySet="Facultad">
           <ScalarProperty Name="idFacultad" ColumnName="idFacultad" />
           <ScalarProperty Name="nomFacultad" ColumnName="nomFacultad" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="nivel">
-      <EntityTypeMapping TypeName="SistemaFIMDBModel.nivel">
-        <MappingFragment StoreEntitySet="nivel">
-          <ScalarProperty Name="idNivel" ColumnName="idNivel" />
-          <ScalarProperty Name="nomNivel" ColumnName="nomNivel" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="procedimiento">
-      <EntityTypeMapping TypeName="SistemaFIMDBModel.procedimiento">
-        <MappingFragment StoreEntitySet="procedimiento">
+    <EntitySetMapping Name="Procedimiento">
+      <EntityTypeMapping TypeName="SistemaFIMDBModel.Procedimiento">
+        <MappingFragment StoreEntitySet="Procedimiento">
           <ScalarProperty Name="idProcedimiento" ColumnName="idProcedimiento" />
           <ScalarProperty Name="descProcedimiento" ColumnName="descProcedimiento" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="requisito">
-      <EntityTypeMapping TypeName="SistemaFIMDBModel.requisito">
-        <MappingFragment StoreEntitySet="requisito">
+    <EntitySetMapping Name="Requisito">
+      <EntityTypeMapping TypeName="SistemaFIMDBModel.Requisito">
+        <MappingFragment StoreEntitySet="Requisito">
           <ScalarProperty Name="idRequisito" ColumnName="idRequisito" />
+          <ScalarProperty Name="carRequisito" ColumnName="carRequisito" />
           <ScalarProperty Name="descRequisito" ColumnName="descRequisito" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="requisito_procedimiento">
-      <EntityTypeMapping TypeName="SistemaFIMDBModel.requisito_procedimiento">
-        <MappingFragment StoreEntitySet="requisito_procedimiento">
+    <EntitySetMapping Name="Requisito_procedimiento">
+      <EntityTypeMapping TypeName="SistemaFIMDBModel.Requisito_procedimiento">
+        <MappingFragment StoreEntitySet="Requisito_procedimiento">
           <ScalarProperty Name="idReqProc" ColumnName="idReqProc" />
           <ScalarProperty Name="requisitosProc" ColumnName="requisitosProc" />
           <ScalarProperty Name="idProcedimiento" ColumnName="idProcedimiento" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="responsable">
-      <EntityTypeMapping TypeName="SistemaFIMDBModel.responsable">
-        <MappingFragment StoreEntitySet="responsable">
+    <EntitySetMapping Name="Responsable">
+      <EntityTypeMapping TypeName="SistemaFIMDBModel.Responsable">
+        <MappingFragment StoreEntitySet="Responsable">
           <ScalarProperty Name="idResponsable" ColumnName="idResponsable" />
           <ScalarProperty Name="nomResponsable" ColumnName="nomResponsable" />
           <ScalarProperty Name="apePatResponsable" ColumnName="apePatResponsable" />
@@ -114,9 +107,17 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="solicitud">
-      <EntityTypeMapping TypeName="SistemaFIMDBModel.solicitud">
-        <MappingFragment StoreEntitySet="solicitud">
+    <EntitySetMapping Name="Rol">
+      <EntityTypeMapping TypeName="SistemaFIMDBModel.Rol">
+        <MappingFragment StoreEntitySet="Rol">
+          <ScalarProperty Name="idRol" ColumnName="idRol" />
+          <ScalarProperty Name="descRol" ColumnName="descRol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Solicitud">
+      <EntityTypeMapping TypeName="SistemaFIMDBModel.Solicitud">
+        <MappingFragment StoreEntitySet="Solicitud">
           <ScalarProperty Name="idSolicitud" ColumnName="idSolicitud" />
           <ScalarProperty Name="asuntoSolicitud" ColumnName="asuntoSolicitud" />
           <ScalarProperty Name="numRegSolicitud" ColumnName="numRegSolicitud" />
@@ -132,9 +133,9 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="usuario">
-      <EntityTypeMapping TypeName="SistemaFIMDBModel.usuario">
-        <MappingFragment StoreEntitySet="usuario">
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="SistemaFIMDBModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
           <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
           <ScalarProperty Name="nomUsuario" ColumnName="nomUsuario" />
           <ScalarProperty Name="contraUsuario" ColumnName="contraUsuario" />
@@ -142,15 +143,16 @@
           <ScalarProperty Name="apePatPerUsuario" ColumnName="apePatPerUsuario" />
           <ScalarProperty Name="apeMatPerUsuario" ColumnName="apeMatPerUsuario" />
           <ScalarProperty Name="dniPerUsuario" ColumnName="dniPerUsuario" />
+          <ScalarProperty Name="celPerUsuario" ColumnName="celPerUsuario" />
           <ScalarProperty Name="estadoUsuario" ColumnName="estadoUsuario" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <AssociationSetMapping Name="nivel_usuario" TypeName="SistemaFIMDBModel.nivel_usuario" StoreEntitySet="nivel_usuario">
-      <EndProperty Name="nivel">
-        <ScalarProperty Name="idNivel" ColumnName="idNivel" />
+    <AssociationSetMapping Name="Rol_usuario" TypeName="SistemaFIMDBModel.Rol_usuario" StoreEntitySet="Rol_usuario">
+      <EndProperty Name="Rol">
+        <ScalarProperty Name="idRol" ColumnName="idRol" />
       </EndProperty>
-      <EndProperty Name="usuario">
+      <EndProperty Name="Usuario">
         <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
       </EndProperty>
     </AssociationSetMapping>

@@ -12,13 +12,14 @@ namespace CapaEntidades
     using System;
     using System.Collections.Generic;
     
-    public partial class usuario
+    public partial class Usuario
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public usuario()
+        public Usuario()
         {
-            this.solicitud = new HashSet<solicitud>();
-            this.nivel = new HashSet<nivel>();
+            this.Documento = new HashSet<Documento>();
+            this.Solicitud = new HashSet<Solicitud>();
+            this.Rol = new HashSet<Rol>();
         }
     
         public int idUsuario { get; set; }
@@ -28,11 +29,14 @@ namespace CapaEntidades
         public string apePatPerUsuario { get; set; }
         public string apeMatPerUsuario { get; set; }
         public string dniPerUsuario { get; set; }
+        public string celPerUsuario { get; set; }
         public bool estadoUsuario { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<solicitud> solicitud { get; set; }
+        public virtual ICollection<Documento> Documento { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<nivel> nivel { get; set; }
+        public virtual ICollection<Solicitud> Solicitud { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Rol> Rol { get; set; }
     }
 }

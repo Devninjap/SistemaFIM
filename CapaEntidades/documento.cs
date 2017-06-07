@@ -12,14 +12,13 @@ namespace CapaEntidades
     using System;
     using System.Collections.Generic;
     
-    public partial class documento
+    public partial class Documento
     {
         public int idDocumento { get; set; }
         public string descDocumento { get; set; }
         public string tipoDocumento { get; set; }
-        public System.DateTime fechaEmiDocumento { get; set; }
+        public Nullable<System.DateTime> fechaEmiDocumento { get; set; }
         public bool estadoDocumento { get; set; }
-        public byte[] archivoDocumento { get; set; }
         public int idResponsable { get; set; }
         public string nomResponsable { get; set; }
         public string apePatResponsable { get; set; }
@@ -35,6 +34,7 @@ namespace CapaEntidades
         public string dniEgresado { get; set; }
         public string codMatEgresado { get; set; }
         public byte[] fotografiaEgresado { get; set; }
+        public int idUsuario { get; set; }
         public string nomUsuario { get; set; }
         public string contraUsuario { get; set; }
         public string nomPerUsuario { get; set; }
@@ -42,7 +42,8 @@ namespace CapaEntidades
         public string apeMatPerUsuario { get; set; }
         public string dniPerUsuario { get; set; }
     
-        public virtual responsable responsable { get; set; }
-        public virtual solicitud solicitud { get; set; }
+        public virtual Responsable Responsable { get; set; }
+        public virtual Solicitud Solicitud { get; set; }
+        public virtual Usuario Usuario { get; set; }
     }
 }
