@@ -45,6 +45,7 @@
     <Compile Include="facultadCN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="responsableCN.cs" />
+    <Compile Include="solicitudCN.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">

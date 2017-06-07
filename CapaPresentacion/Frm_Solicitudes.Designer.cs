@@ -419,6 +419,7 @@
             this.Name = "Frm_Solicitudes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Expedientes";
+            this.Load += new System.EventHandler(this.Frm_Solicitudes_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
