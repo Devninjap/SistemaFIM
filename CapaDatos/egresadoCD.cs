@@ -19,8 +19,8 @@ namespace CapaDatos
                         on tblEgresado.idFacultad equals tblFacultad.idFacultad //aqui un RICO JOIN
                         select new
                         {
-                            ID = tblEgresado.idEgresado,
-                            NombreCompleto = tblEgresado.apePatEgresado.ToUpper()+" "+tblEgresado.apeMatEgresado.ToUpper()+", "+tblEgresado.nomEgresado.ToUpper(),
+                            Id = tblEgresado.idEgresado,
+                            Egresado = tblEgresado.apePatEgresado.ToUpper()+" "+tblEgresado.apeMatEgresado.ToUpper()+", "+tblEgresado.nomEgresado.ToUpper(),
                             //Nombre = tblEgresado.nomEgresado,
                             //Paterno = tblEgresado.apePatEgresado,
                             //Materno = tblEgresado.apeMatEgresado,
