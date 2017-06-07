@@ -12,6 +12,8 @@ namespace CapaPresentacion
 {
     public partial class Frm_Login2 : Form
     {
+        public static int idUsuarioActual = 0;
+
         public Frm_Login2()
         {
             InitializeComponent();

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CapaEntidades;
 
 namespace CapaDatos
 {
@@ -23,6 +24,19 @@ namespace CapaDatos
                         };
             return query.ToList();
             
+        }
+        public void registrarSol(Solicitud sol)
+        {
+            try
+            {
+                ctx.Solicitud.Add(sol);
+                ctx.SaveChanges();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }

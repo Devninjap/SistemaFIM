@@ -12,10 +12,16 @@ namespace CapaNegocio
     {
         //INSTANCIAS
         egresadoCD obj = new egresadoCD();
+        solicitudCD objSolcitud = new solicitudCD();
         //LISTAR EGRESADOS
         public object getEgresado()
         {
             return obj.getEgresado();
         }
+        public void registrarSol(Solicitud sol)
+        {
+            objSolcitud.registrarSol(sol);
+        }
     }
+
 }
