@@ -15,7 +15,11 @@ namespace CapaPresentacion
     public partial class Frm_Solicitudes : Form
     {
         solicitudCN objSolicitud = new solicitudCN();
+<<<<<<< HEAD
         int idConsultaSolicitud;
+=======
+        int idConsultaEgresado;
+>>>>>>> 6b554cc98c693fbbced66219c51124d2b408b193
 
         public Frm_Solicitudes()
         {
@@ -31,6 +35,7 @@ namespace CapaPresentacion
         {
             dataGridView1.DataSource = objSolicitud.getEgresado();
         }
+<<<<<<< HEAD
         private void agregarSol()
         {
             tabControl1.SelectTab(tabPage2);
@@ -72,6 +77,17 @@ namespace CapaPresentacion
             };
 
             return sol;
+=======
+
+        //OPERACIONES CON EL DATAGRIDVIEW
+        private void dataGridView1_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            idConsultaEgresado = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
+
+            dataGridView2.DataSource = objSolicitud.listarSolicitudPorEgresado(idConsultaEgresado);
+
+            tabControl1.SelectTab(tabPage3);
+>>>>>>> 6b554cc98c693fbbced66219c51124d2b408b193
         }
     }
 }
