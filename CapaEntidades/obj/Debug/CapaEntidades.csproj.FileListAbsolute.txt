@@ -6,3 +6,4 @@ C:\Users\Yampier\Desktop\SistemaFIM\CapaEntidades\bin\Debug\CapaEntidades.dll
 C:\Users\Yampier\Desktop\SistemaFIM\CapaEntidades\bin\Debug\CapaEntidades.pdb
 C:\Users\Yampier\Desktop\SistemaFIM\CapaEntidades\obj\Debug\CapaEntidades.dll
 C:\Users\Yampier\Desktop\SistemaFIM\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\Users\Usuario\documents\visual studio 2015\Projects\SistemaFIM\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache

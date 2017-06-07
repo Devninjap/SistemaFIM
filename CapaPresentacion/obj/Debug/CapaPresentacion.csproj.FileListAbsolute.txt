@@ -118,6 +118,7 @@ C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.x
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\bin\Debug\CapaDatos.pdb
 C:\Users\Yampier\Desktop\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Responsable.resources
+<<<<<<< HEAD
 E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
 E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
@@ -157,3 +158,6 @@ E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construc
 E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
 E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Reporte_Documentos.resources
 E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+=======
+C:\Users\Usuario\documents\visual studio 2015\Projects\SistemaFIM\CapaPresentacion\obj\Debug\CapaPresentacion.Frm_Responsable.resources
+>>>>>>> 4fe07d6bbe5f662fc78eeaa38e983788c5dade91
