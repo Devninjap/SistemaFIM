@@ -9,6 +9,5 @@ C:\Users\Yampier\Desktop\SistemaFIM\CapaEntidades\obj\Debug\CapaEntidades.pdb
 C:\Users\Usuario\documents\visual studio 2015\Projects\SistemaFIM\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
 E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaEntidades\bin\Debug\CapaEntidades.dll
 E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaEntidades\bin\Debug\CapaEntidades.pdb
-E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
 E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaEntidades\obj\Debug\CapaEntidades.dll
 E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaEntidades\obj\Debug\CapaEntidades.pdb

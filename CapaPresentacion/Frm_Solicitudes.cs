@@ -15,11 +15,8 @@ namespace CapaPresentacion
     public partial class Frm_Solicitudes : Form
     {
         solicitudCN objSolicitud = new solicitudCN();
-<<<<<<< HEAD
         int idConsultaSolicitud;
-=======
         int idConsultaEgresado;
->>>>>>> 6b554cc98c693fbbced66219c51124d2b408b193
 
         public Frm_Solicitudes()
         {
@@ -35,7 +32,6 @@ namespace CapaPresentacion
         {
             dataGridView1.DataSource = objSolicitud.getEgresado();
         }
-<<<<<<< HEAD
         private void agregarSol()
         {
             tabControl1.SelectTab(tabPage2);
@@ -70,15 +66,14 @@ namespace CapaPresentacion
                 estadoSolicitud = true,
                 atencionSolicitud = "SA",
                 idReqProc = cmbAsunto.SelectedIndex,
-                //idEgresado = idConsultaEgresado,
-                idEgresado = 1,
+                idEgresado = idConsultaEgresado,
+                //idEgresado = 1,
                 //idUsuario = Frm_Login2.idUsuarioActual
                 idUsuario = 1
             };
 
             return sol;
-=======
-
+        }
         //OPERACIONES CON EL DATAGRIDVIEW
         private void dataGridView1_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
         {
@@ -87,7 +82,6 @@ namespace CapaPresentacion
             dataGridView2.DataSource = objSolicitud.listarSolicitudPorEgresado(idConsultaEgresado);
 
             tabControl1.SelectTab(tabPage3);
->>>>>>> 6b554cc98c693fbbced66219c51124d2b408b193
         }
     }
 }
