@@ -18,18 +18,18 @@ namespace CapaNegocio
             return obj.getEgresado();
         }
         //REGISTRAR EGRESADO
-        public void registrarEgresado(egresado eg)
+        public void registrarEgresado(Egresado eg)
         {
             obj.registrarEgresado(eg);
         }
         //CONSULTAR EGRESADO
-        public egresado consultarEgresado(int idEgre)
+        public Egresado consultarEgresado(int idEgre)
         {
             return obj.consultarEgresado(idEgre);
         }
 
         //MODIFICAR EGRESADO
-        public void modificarEgresado(egresado egre)
+        public void modificarEgresado(Egresado egre)
         {
             obj.modificarEgresado(egre);
         }

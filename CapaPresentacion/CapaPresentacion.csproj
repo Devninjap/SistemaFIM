@@ -68,11 +68,11 @@
     <Compile Include="Frm_Egresado.Designer.cs">
       <DependentUpon>Frm_Egresado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Expedientes.cs">
+    <Compile Include="Frm_Solicitudes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Expedientes.Designer.cs">
-      <DependentUpon>Frm_Expedientes.cs</DependentUpon>
+    <Compile Include="Frm_Solicitudes.Designer.cs">
+      <DependentUpon>Frm_Solicitudes.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Login2.cs">
       <SubType>Form</SubType>
@@ -112,8 +112,8 @@
     <EmbeddedResource Include="Frm_Egresado.resx">
       <DependentUpon>Frm_Egresado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Expedientes.resx">
-      <DependentUpon>Frm_Expedientes.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Solicitudes.resx">
+      <DependentUpon>Frm_Solicitudes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Login2.resx">
       <DependentUpon>Frm_Login2.cs</DependentUpon>

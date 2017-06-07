@@ -12,18 +12,18 @@ namespace CapaEntidades
     using System;
     using System.Collections.Generic;
     
-    public partial class facultad
+    public partial class Facultad
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public facultad()
+        public Facultad()
         {
-            this.egresado = new HashSet<egresado>();
+            this.Egresado = new HashSet<Egresado>();
         }
     
-        public string idFacultad { get; set; }
+        public int idFacultad { get; set; }
         public string nomFacultad { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<egresado> egresado { get; set; }
+        public virtual ICollection<Egresado> Egresado { get; set; }
     }
 }

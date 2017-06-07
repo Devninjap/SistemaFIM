@@ -12,7 +12,7 @@ namespace CapaNegocio
     {
         //INSTANCIAS
         areaCD obj = new areaCD();
-        public List<area> getArea()
+        public List<Area> getArea()
         {
             return obj.getArea();
         }

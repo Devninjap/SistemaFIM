@@ -12,18 +12,18 @@ namespace CapaEntidades
     using System;
     using System.Collections.Generic;
     
-    public partial class nivel
+    public partial class Rol
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public nivel()
+        public Rol()
         {
-            this.usuario = new HashSet<usuario>();
+            this.Usuario = new HashSet<Usuario>();
         }
     
-        public int idNivel { get; set; }
-        public string nomNivel { get; set; }
+        public int idRol { get; set; }
+        public string descRol { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<usuario> usuario { get; set; }
+        public virtual ICollection<Usuario> Usuario { get; set; }
     }
 }

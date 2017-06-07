@@ -386,10 +386,10 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
-            this.pictureBox2.Location = new System.Drawing.Point(1, -4);
+            this.pictureBox2.Location = new System.Drawing.Point(17, -7);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1006, 137);
+            this.pictureBox2.Size = new System.Drawing.Size(1006, 140);
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;
             // 

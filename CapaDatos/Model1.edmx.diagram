@@ -4,27 +4,28 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="1ca1a9ee7b664d10b3848dbb8a99f614" Name="Diagram1">
-        <EntityTypeShape EntityType="SistemaFIMDBModel.area" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SistemaFIMDBModel.documento" Width="1.5" PointX="7.5" PointY="2.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SistemaFIMDBModel.egresado" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SistemaFIMDBModel.facultad" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SistemaFIMDBModel.nivel" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="SistemaFIMDBModel.procedimiento" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="SistemaFIMDBModel.requisito" Width="1.5" PointX="5.75" PointY="9.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="SistemaFIMDBModel.requisito_procedimiento" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SistemaFIMDBModel.responsable" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SistemaFIMDBModel.solicitud" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="SistemaFIMDBModel.usuario" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
-        <AssociationConnector Association="SistemaFIMDBModel.FK__responsab__idAre__22AA2996" ManuallyRouted="false" />
-        <AssociationConnector Association="SistemaFIMDBModel.FK__documento__idRes__31EC6D26" ManuallyRouted="false" />
-        <AssociationConnector Association="SistemaFIMDBModel.FK__documento__idSol__32E0915F" ManuallyRouted="false" />
-        <AssociationConnector Association="SistemaFIMDBModel.FK__egresado__idFacu__1DE57479" ManuallyRouted="false" />
-        <AssociationConnector Association="SistemaFIMDBModel.FK__solicitud__idEgr__2D27B809" ManuallyRouted="false" />
-        <AssociationConnector Association="SistemaFIMDBModel.FK__requisito__idPro__29572725" ManuallyRouted="false" />
-        <AssociationConnector Association="SistemaFIMDBModel.FK__solicitud__idReq__2C3393D0" ManuallyRouted="false" />
-        <AssociationConnector Association="SistemaFIMDBModel.FK__solicitud__idUsu__2E1BDC42" ManuallyRouted="false" />
-        <AssociationConnector Association="SistemaFIMDBModel.nivel_usuario" ManuallyRouted="false" />
+      <Diagram DiagramId="ebdd4a9622f843129eeac0d925f4d323" Name="Diagram1">
+        <EntityTypeShape EntityType="SistemaFIMDBModel.Area" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaFIMDBModel.Documento" Width="1.5" PointX="7.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaFIMDBModel.Egresado" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaFIMDBModel.Facultad" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaFIMDBModel.Procedimiento" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaFIMDBModel.Requisito" Width="1.5" PointX="5.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaFIMDBModel.Requisito_procedimiento" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaFIMDBModel.Responsable" Width="1.5" PointX="5.25" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaFIMDBModel.Rol" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaFIMDBModel.Solicitud" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaFIMDBModel.Usuario" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <AssociationConnector Association="SistemaFIMDBModel.FK__Responsab__idAre__239E4DCF" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaFIMDBModel.FK__Documento__idRes__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaFIMDBModel.FK__Documento__idSol__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaFIMDBModel.FK__Documento__idUsu__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaFIMDBModel.FK__Egresado__idFacu__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaFIMDBModel.FK__Solicitud__idEgr__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaFIMDBModel.FK__Requisito__idPro__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaFIMDBModel.FK__Solicitud__idReq__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaFIMDBModel.FK__Solicitud__idUsu__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaFIMDBModel.Rol_usuario" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

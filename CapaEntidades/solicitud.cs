@@ -12,12 +12,12 @@ namespace CapaEntidades
     using System;
     using System.Collections.Generic;
     
-    public partial class solicitud
+    public partial class Solicitud
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public solicitud()
+        public Solicitud()
         {
-            this.documento = new HashSet<documento>();
+            this.Documento = new HashSet<Documento>();
         }
     
         public int idSolicitud { get; set; }
@@ -34,9 +34,9 @@ namespace CapaEntidades
         public int idUsuario { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<documento> documento { get; set; }
-        public virtual egresado egresado { get; set; }
-        public virtual requisito_procedimiento requisito_procedimiento { get; set; }
-        public virtual usuario usuario { get; set; }
+        public virtual ICollection<Documento> Documento { get; set; }
+        public virtual Egresado Egresado { get; set; }
+        public virtual Requisito_procedimiento Requisito_procedimiento { get; set; }
+        public virtual Usuario Usuario { get; set; }
     }
 }

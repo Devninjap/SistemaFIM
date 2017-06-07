@@ -47,20 +47,20 @@ namespace CapaPresentacion
         public void modificarEgresado()
         {
             //asignado idEgresado al objeto egresado
-            egresado egreConsult = datosEgresado();
+            Egresado egreConsult = datosEgresado();
             egreConsult.idEgresado = idConsulta;
             objEgresado.modificarEgresado(egreConsult);
         }
 
-        public egresado consultarEgreado(int idEgre)
+        public Egresado consultarEgreado(int idEgre)
         {
             return objEgresado.consultarEgresado(idEgre);
         }
 
         //METODO DE CAPTURA DE VALORES
-        public egresado datosEgresado()
+        public Egresado datosEgresado()
         {
-            egresado egre = new egresado
+            Egresado egre = new Egresado
             {
                 nomEgresado = txtNom.Text,
                 apePatEgresado = txtApePat.Text,
@@ -72,7 +72,7 @@ namespace CapaPresentacion
                 celEgresado = txtCel.Text,
                 emailEgresado = txtEmail.Text,
                 fotografiaEgresado = foto,//validar
-                idFacultad = cmbFac.SelectedValue.ToString()
+                idFacultad = int.Parse(cmbFac.SelectedValue.ToString())
             };
 
             return egre;
@@ -96,14 +96,14 @@ namespace CapaPresentacion
         //Metodos auxiliares
         private void cargarComboFacultades()
         {
-            List<facultad> facultades = objFacultad.getFacultad();
+            List<Facultad> facultades = objFacultad.getFacultad();
             //limpiando el combo box
             cmbFac.DataSource = null;
             cmbFac.Items.Clear();
 
             BindingList<FacultadData> comboItems = new BindingList<FacultadData>();
-            comboItems.Add(new FacultadData { Nombre = "Elegir facultad", Valor = null });
-            foreach (facultad fac in facultades)
+            comboItems.Add(new FacultadData { Nombre = "Elegir facultad", Valor = 0 });
+            foreach (Facultad fac in facultades)
             {
                 comboItems.Add(new FacultadData { Nombre = fac.nomFacultad, Valor = fac.idFacultad });
             }
@@ -115,7 +115,7 @@ namespace CapaPresentacion
         public class FacultadData
         {
             public string Nombre { get; set; }
-            public string Valor { get; set; }
+            public int Valor { get; set; }
         }
         //EVENTOS DE BOTONES
         private void btnCargar_Click(object sender, EventArgs e)
@@ -140,7 +140,7 @@ namespace CapaPresentacion
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             idConsulta = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
-            egresado egresado = consultarEgreado(idConsulta);
+            Egresado egresado = consultarEgreado(idConsulta);
             //rellenando campos
             txtNom.Text = egresado.nomEgresado;
             txtApePat.Text = egresado.apePatEgresado;
@@ -156,7 +156,7 @@ namespace CapaPresentacion
             for (int i = 1; i < cmbFac.Items.Count; i++)
             {
                 cmbFac.SelectedIndex = i;
-                if (cmbFac.SelectedValue.ToString() == egresado.idFacultad)
+                if (int.Parse(cmbFac.SelectedValue.ToString()) == egresado.idFacultad)
                 {
                     cmbFac.SelectedIndex = i;
                     break;
@@ -166,6 +166,11 @@ namespace CapaPresentacion
             tabControl1.SelectTab(tabPage2);
             nuevo = false;
             foto = null;
+        }
+
+        private void lblCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

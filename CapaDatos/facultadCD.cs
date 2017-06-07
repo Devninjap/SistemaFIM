@@ -11,9 +11,9 @@ namespace CapaDatos
     {
         SistemaFIMDBEntities ctx = new SistemaFIMDBEntities();
         //LISTAR FACULTADES
-        public List<facultad> getFacultad()
+        public List<Facultad> getFacultad()
         {
-            return ctx.facultad.ToList();
+            return ctx.Facultad.ToList();
         }
     }
 }

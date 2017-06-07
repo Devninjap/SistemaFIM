@@ -20,3 +20,14 @@ C:\Users\Yampier\Desktop\SistemaFIM\CapaNegocio\bin\Debug\EntityFramework.xml
 C:\Users\Yampier\Desktop\SistemaFIM\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
 C:\Users\Yampier\Desktop\SistemaFIM\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\Yampier\Desktop\SistemaFIM\CapaNegocio\obj\Debug\CapaNegocio.pdb
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaNegocio\bin\Debug\CapaNegocio.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaNegocio\bin\Debug\CapaNegocio.pdb
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaNegocio\bin\Debug\CapaDatos.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaNegocio\bin\Debug\CapaEntidades.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaNegocio\bin\Debug\EntityFramework.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaNegocio\bin\Debug\CapaDatos.pdb
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaNegocio\bin\Debug\CapaEntidades.pdb
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaNegocio\bin\Debug\EntityFramework.xml
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaNegocio\obj\Debug\CapaNegocio.dll
+E:\Universidad 2017-1\Practicas\Desarrollo del Software\Iteracion 2\3 - Construcción del sistema\SistemaFIM\CapaNegocio\obj\Debug\CapaNegocio.pdb

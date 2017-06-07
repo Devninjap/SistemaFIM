@@ -11,9 +11,9 @@ namespace CapaDatos
     {
         SistemaFIMDBEntities ctx = new SistemaFIMDBEntities();
         //LISTAR AREAS
-        public List<area> getArea()
+        public List<Area> getArea()
         {
-            return ctx.area.ToList();
+            return ctx.Area.ToList();
         }
 
     }

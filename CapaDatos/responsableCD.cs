@@ -13,7 +13,7 @@ namespace CapaDatos
         //LISTAR RESPONSABLES
         public object getResponsable()
         {
-            var query = from tblResponsable in ctx.responsable
+            var query = from tblResponsable in ctx.Responsable
                         select new
                         {
                             tblResponsable.idResponsable,
@@ -24,11 +24,11 @@ namespace CapaDatos
             return query.ToList();
         }
         //INSERTAR RESPONSABLE
-        public void registrarResponsable(responsable resp)
+        public void registrarResponsable(Responsable resp)
         {
             try
             {
-                ctx.responsable.Add(resp);
+                ctx.Responsable.Add(resp);
                 ctx.SaveChanges();
             }
             catch (Exception)
@@ -39,11 +39,11 @@ namespace CapaDatos
         }
 
         //CONSULTAR RESPONSABLE
-        public responsable consultarResponsable(int idResp)
+        public Responsable consultarResponsable(int idResp)
         {
             try
             {
-                var query = from tblResponsable in ctx.responsable
+                var query = from tblResponsable in ctx.Responsable
                             where tblResponsable.idResponsable == idResp
                             select tblResponsable;
 
@@ -57,7 +57,7 @@ namespace CapaDatos
 
         }
         //MODIFICAR RESPONSABLE
-        public void modificarResponsable(responsable resp)
+        public void modificarResponsable(Responsable resp)
         {
             try
             {
@@ -68,7 +68,7 @@ namespace CapaDatos
                               select a).Single();
                 */
                 //LAMBDA
-                var query2 = ctx.responsable.Where(q => q.idResponsable == resp.idResponsable).FirstOrDefault();
+                var query2 = ctx.Responsable.Where(q => q.idResponsable == resp.idResponsable).FirstOrDefault();
 
                 //llamada a cada atributo de la tabla
                 query2.nomResponsable = resp.nomResponsable;

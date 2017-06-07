@@ -41,19 +41,19 @@ namespace CapaPresentacion
         public void modificarResponsable()
         {
             //asignado idResponsable al objeto egresado
-            responsable respConsult = datosResponsable();
+            Responsable respConsult = datosResponsable();
             respConsult.idResponsable = idConsulta;
             objResponsable.modificarResponsable(respConsult);
         }
 
-        public responsable consultarResponsable(int idResp)
+        public Responsable consultarResponsable(int idResp)
         {
             return objResponsable.consultarResponsable(idResp);
         }
         //METODO DE CAPTURA DE VALORES
-        public responsable datosResponsable()
+        public Responsable datosResponsable()
         {
-            responsable resp = new responsable
+            Responsable resp = new Responsable
             {
                 nomResponsable = txtNom.Text,
                 apePatResponsable = txtApePat.Text,
@@ -68,16 +68,16 @@ namespace CapaPresentacion
         //Metodos auxiliares
         public void cargarComboArea()
         {
-            List<area> areas = objArea.getArea();
+            List<Area> areas = objArea.getArea();
             //limpiando el combo box
             cmbArea.DataSource = null;
             cmbArea.Items.Clear();
 
             BindingList<AreaData> comboItems = new BindingList<AreaData>();
             comboItems.Add(new AreaData { Nombre = "Elegir area", Valor = 0 });
-            foreach (area area in areas)
+            foreach (Area area in areas)
             {
-                comboItems.Add(new AreaData { Nombre = area.nomArea, Valor = area.idArea });
+                comboItems.Add(new AreaData { Nombre = area.descArea, Valor = area.idArea });
             }
             cmbArea.DataSource = comboItems;
             cmbArea.DisplayMember = "Nombre";
@@ -110,7 +110,7 @@ namespace CapaPresentacion
         private void dgvListadoResp_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             idConsulta = int.Parse(dgvListadoResp.CurrentRow.Cells[0].Value.ToString());
-            responsable responsable = consultarResponsable(idConsulta);
+            Responsable responsable = consultarResponsable(idConsulta);
             //rellenando campos
             txtNom.Text = responsable.nomResponsable;
             txtApePat.Text = responsable.apePatResponsable;

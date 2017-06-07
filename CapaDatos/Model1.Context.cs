@@ -13,6 +13,7 @@ namespace CapaDatos
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     using CapaEntidades;
+    
     public partial class SistemaFIMDBEntities : DbContext
     {
         public SistemaFIMDBEntities()
@@ -25,16 +26,16 @@ namespace CapaDatos
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<area> area { get; set; }
-        public virtual DbSet<documento> documento { get; set; }
-        public virtual DbSet<egresado> egresado { get; set; }
-        public virtual DbSet<facultad> facultad { get; set; }
-        public virtual DbSet<nivel> nivel { get; set; }
-        public virtual DbSet<procedimiento> procedimiento { get; set; }
-        public virtual DbSet<requisito> requisito { get; set; }
-        public virtual DbSet<requisito_procedimiento> requisito_procedimiento { get; set; }
-        public virtual DbSet<responsable> responsable { get; set; }
-        public virtual DbSet<solicitud> solicitud { get; set; }
-        public virtual DbSet<usuario> usuario { get; set; }
+        public virtual DbSet<Area> Area { get; set; }
+        public virtual DbSet<Documento> Documento { get; set; }
+        public virtual DbSet<Egresado> Egresado { get; set; }
+        public virtual DbSet<Facultad> Facultad { get; set; }
+        public virtual DbSet<Procedimiento> Procedimiento { get; set; }
+        public virtual DbSet<Requisito> Requisito { get; set; }
+        public virtual DbSet<Requisito_procedimiento> Requisito_procedimiento { get; set; }
+        public virtual DbSet<Responsable> Responsable { get; set; }
+        public virtual DbSet<Rol> Rol { get; set; }
+        public virtual DbSet<Solicitud> Solicitud { get; set; }
+        public virtual DbSet<Usuario> Usuario { get; set; }
     }
 }
