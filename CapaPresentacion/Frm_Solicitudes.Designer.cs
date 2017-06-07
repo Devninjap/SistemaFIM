@@ -391,9 +391,9 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(22, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(314, 31);
+            this.label2.Size = new System.Drawing.Size(277, 31);
             this.label2.TabIndex = 7;
-            this.label2.Text = "GESTIÓN DE EXPEDIENTES";
+            this.label2.Text = "GESTIÓN DE SOLICITUD";
             // 
             // panel2
             // 
