@@ -14,22 +14,30 @@ namespace CapaDatos
         //LISTAR EGRESADOS
         public object getEgresado()
         {
-            var query = from tblEgresado in ctx.Egresado
-                        join tblFacultad in ctx.Facultad 
-                        on tblEgresado.idFacultad equals tblFacultad.idFacultad //aqui un RICO JOIN
-                        select new
-                        {
-                            Id = tblEgresado.idEgresado,
-                            Egresado = tblEgresado.apePatEgresado.ToUpper()+" "+tblEgresado.apeMatEgresado.ToUpper()+", "+tblEgresado.nomEgresado.ToUpper(),
-                            //Nombre = tblEgresado.nomEgresado,
-                            //Paterno = tblEgresado.apePatEgresado,
-                            //Materno = tblEgresado.apeMatEgresado,
-                            Facultad = tblFacultad.nomFacultad
-                        };
+            try
+            {
+                var query = from tblEgresado in ctx.Egresado
+                           join tblFacultad in ctx.Facultad
+                           on tblEgresado.idFacultad equals tblFacultad.idFacultad //aqui un RICO JOIN
+                           select new
+                           {
+                               Id = tblEgresado.idEgresado,
+                               Egresado = tblEgresado.apePatEgresado.ToUpper() + " " + tblEgresado.apeMatEgresado.ToUpper() + ", " + tblEgresado.nomEgresado.ToUpper(),
+                               //Nombre = tblEgresado.nomEgresado,
+                               //Paterno = tblEgresado.apePatEgresado,
+                               //Materno = tblEgresado.apeMatEgresado,
+                               Facultad = tblFacultad.nomFacultad
+                           };
 
-            //List<egresado> egreList = query.ToList<egresado>();
-            return query.ToList();
-            //return ctx.egresado.ToList();
+                //List<egresado> egreList = query.ToList<egresado>();
+                return query.ToList();
+                //return ctx.egresado.ToList();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
         //INSERTAR EGRESADO
         public void registrarEgresado(Egresado eg)

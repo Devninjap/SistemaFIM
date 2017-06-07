@@ -52,7 +52,7 @@ namespace CapaPresentacion
             objEgresado.modificarEgresado(egreConsult);
         }
 
-        public Egresado consultarEgreado(int idEgre)
+        public Egresado consultarEgresado(int idEgre)
         {
             return objEgresado.consultarEgresado(idEgre);
         }
@@ -140,7 +140,7 @@ namespace CapaPresentacion
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             idConsulta = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
-            Egresado egresado = consultarEgreado(idConsulta);
+            Egresado egresado = consultarEgresado(idConsulta);
             //rellenando campos
             txtNom.Text = egresado.nomEgresado;
             txtApePat.Text = egresado.apePatEgresado;

@@ -14,7 +14,9 @@ namespace CapaPresentacion
 {
     public partial class Frm_Solicitudes : Form
     {
-        solicitudCN objEgresado = new solicitudCN(); 
+        solicitudCN objSolicitud = new solicitudCN();
+        int idConsultaEgresado;
+
         public Frm_Solicitudes()
         {
             InitializeComponent();
@@ -27,7 +29,17 @@ namespace CapaPresentacion
 
         private void listarEgresado()
         {
-            dataGridView1.DataSource = objEgresado.getEgresado();
+            dataGridView1.DataSource = objSolicitud.getEgresado();
+        }
+
+        //OPERACIONES CON EL DATAGRIDVIEW
+        private void dataGridView1_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            idConsultaEgresado = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
+
+            dataGridView2.DataSource = objSolicitud.listarSolicitudPorEgresado(idConsultaEgresado);
+
+            tabControl1.SelectTab(tabPage3);
         }
     }
 }
